@@ -1,0 +1,17 @@
+<html>
+<head>
+     <script type="text/javascript" src="http://lib.ivank.net/ivank.js"  ></script>
+     <script type="text/javascript" src="http://flipr.ivank.net/flipr.js"></script>
+     <script type="text/javascript">
+          function Go()
+          {
+               var width  = 480;
+               var height = 640;
+               var pages  = [ "p/pic1.jpg", "p/pic2.jpg", "p/pic3.jpg", "p/pic4.jpg",
+                              "p/pic5.jpg", "p/pic6.jpg", "p/pic7.jpg", "p/pic8.jpg"   ];
+               var book = new Book("c", width, height, pages);
+          }
+     </script>
+</head>
+<body onload="Go();"><canvas id="c"></canvas></body>
+</html>
